@@ -1,0 +1,26 @@
+name: HashPass
+version: 1.0-SNAPSHOT
+main: io.github.gifcha.hashpass.HashPass
+api-version: 1.14
+authors: [ gifter ]
+description: A secure log-in plugin for cracked servers.
+commands:
+  register:
+    usage: /register <password> <password>
+    description: registers a new account with the given password
+  login:
+    usage: /login <password>
+    description: login to account
+  unregister:
+    usage: /unregister <player>
+    description: unregisters a player
+permissions:
+  hashpass.register:
+    description: Allows the player to register himself
+    default: true
+  hashpass.login:
+    description: Allows the player to login
+    default: true
+  hashpass.unregister:
+    description:  Allows the player to unregister a registered player
+    default: op

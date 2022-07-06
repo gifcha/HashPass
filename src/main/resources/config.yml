@@ -1,0 +1,33 @@
+options:
+  teleport_on_spawn: "false"
+
+messages:
+  login_title: "§cPlease login!"
+
+  login_subtitle: "§eLogin using /login <password>"
+
+  login_request: "§eLogin using /login <password>"
+
+  login_success: "§aSuccessfully logged in!"
+
+  login_fail: "§cWrong password!"
+
+  already_loggedin: "§eYou are already logged in."
+
+  already_registered: "§eYou are already registered, login using /login <password>"
+
+  not_registered: "§cYou are not registered, register using /register"
+
+  #if the player did not confirm password
+  register_confirm_pass: "§cConfirm password is not the same."
+
+  register_success: "§aRegistered!"
+
+  #if the player doesn't use /register correctly
+  register_fail: "§cRegister using /register <password> <confirmPassword>"
+
+  unregister_success: "§4Removed account %target%"
+
+  unregister_fail: "§cPlayer is not registered"
+
+  unregister_no_permission: "§cYou do not have permission to do this!"
